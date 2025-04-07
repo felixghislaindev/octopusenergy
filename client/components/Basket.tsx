@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ShoppingBasket, X } from "lucide-react";
+import { X } from "lucide-react";
 import type { Product } from "../types/product";
 
 interface BasketProps {
