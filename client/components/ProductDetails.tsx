@@ -1,5 +1,4 @@
 import type { Product } from "../types/product";
-import Footer from "./footer";
 
 interface ProductDetailsProps {
   product: Product;
