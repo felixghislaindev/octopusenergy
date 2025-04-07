@@ -8,7 +8,7 @@ import QuantitySelector from "../components/QuantitySelector";
 import { useQuery } from "@apollo/client";
 import { Product as ProductType } from "../types/product";
 import ProductNavbar from "../components/ProductNavbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Product() {
   const [product, setProduct] = useState<ProductType | null>(null);
