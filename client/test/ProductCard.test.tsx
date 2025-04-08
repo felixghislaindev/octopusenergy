@@ -1,10 +1,8 @@
-// components/__tests__/ProductCard.test.tsx
 import { render, screen } from "@testing-library/react";
 
 import { Product } from "../types/product";
 import ProductCard from "../components/ProductCard";
 
-// Mock next/image
 jest.mock("next/image", () => ({
   __esModule: true,
   default: (props: any) => <img {...props} />,
@@ -16,7 +14,7 @@ const mockProduct: Product = {
   power: "25W",
   description:
     "Available in 7 watts, 9 watts, 11 watts Spiral Light bulb in B22, bulb switches on instantly, no wait around warm start and flicker free features make for a great all purpose bulb",
-  price: 1299, // Price in pennies
+  price: 1299,
   quantity: 4,
   brand: "Philips",
   weight: 77,

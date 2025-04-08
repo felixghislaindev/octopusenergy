@@ -8,7 +8,6 @@ const customJestConfig = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
-  // Add these for better isolation
   resetMocks: true,
   clearMocks: true,
   resetModules: true,
